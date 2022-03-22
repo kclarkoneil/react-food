@@ -13,7 +13,7 @@ const [errorMessage, setErrorMessage] = useState('')
            params: {
                limit: 50,
                term: searchTerm,
-               location: 'san jose'
+               location: 'Vancouver'
            }
        })
        setResults(response.data.businesses)
